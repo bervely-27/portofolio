@@ -1,0 +1,25 @@
+.testimonies{
+    display: flex;
+    gap: 40px;
+    width: 80%;
+     margin: auto;
+     margin-top: 40px;
+     margin-bottom: 40px;
+    
+}
+
+.testimonial {
+    display: flex;
+    box-sizing: border-box;
+        margin-top: 50px;
+    
+   
+    
+}
+
+/* .testimonie-wrapper {
+    width: 80%;
+    display: flex;
+    
+   
+} */

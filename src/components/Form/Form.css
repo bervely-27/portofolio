@@ -1,0 +1,75 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:30px ;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.form label{
+    position: absolute;
+    left: -999999px; ;
+}
+.mail{
+   height: 56px;
+}
+
+input{
+    width: 70%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#message{
+    width: 70%;
+    height: 20vh;
+        font-family: 'Sora';
+        font-size: 13px;
+        font-weight: 350;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        border-radius: 10px;
+        border: 2px solid black;
+        padding-left: 10px;
+}
+
+/* .btn-form{
+    background-color: #000000;
+        color: #ffffff;
+        border: 1px solid #000000;
+        width: 7%;
+        height: 30px;
+        padding: 10px;
+       
+} */
+
+.btn-form {
+    background-color: #000000;
+        color: #ffffff;
+        height: 40px;
+        border: 1px solid #000000;
+            font-family: 'Sora';
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            box-shadow: none;
+            padding-right: 20px;
+            padding-left: 10px;
+        
+}
+
+.btn-media{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+.social-btn {
+    display: flex;
+    gap: 20px;
+   
+}
