@@ -2,6 +2,12 @@
     border: 1px solid #71717A;
     border-radius: 10px;
     padding: 30px;
+   background: black;
+}
+
+.experience:hover{
+    background-color: #404040;
+    transition: 1s ease-in-out;
 }
 
 .logo-experience{
@@ -11,4 +17,31 @@
 .heading{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+@media (max-width:900px) {
+    .heading{
+        flex-direction: column;
+    }
+
+}
+.logo-experience span{
+   
+        font-family: Sora;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        text-align: left;
+}
+.heading p{
+        font-family: Sora;
+        font-size: 14px;
+        font-weight: 100;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+
+.description-experience{
+    font-weight:300 ;
 }

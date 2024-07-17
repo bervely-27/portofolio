@@ -6,11 +6,11 @@ const ExpericenceItem = ({ link, legend ,date,description}) => {
       <div className="heading">
         <div className="logo-experience">
           <img src={link} alt="experience" />
-          <p>{legend}</p>
+          <span>{legend}</span>
         </div>
         <p>{date}</p>
       </div>
-      <p>{description}</p>
+      <span className='description-experience'>{description}</span>
     </div>
   );
 };

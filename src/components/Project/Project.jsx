@@ -4,8 +4,8 @@ import read from "./Images/read.svg";
 const Project = ({ image,num,head,summary }) => {
   return (
     <section className="project">
-      <div>
-        <img src={image} alt="project" />
+      <div className="project-img">
+        <img className="toy" src={image} alt="project" />
       </div>
       <div className="project-text">
         <span className="num">{num}</span>

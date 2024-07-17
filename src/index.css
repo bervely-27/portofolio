@@ -3,11 +3,23 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
   font-family: 'Sora';
+}
+
+body,html{
+  width: 100%;
+  overflow-x:  hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@media (max-width:900px) {
+  /* body{
+    width: 100%;
+  }
+  html{
+    width: 100vw;
+  } */
 }

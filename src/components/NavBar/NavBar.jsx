@@ -3,9 +3,18 @@ import logo1 from "./image/logo1.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 import { MdOutlineFileDownload } from "react-icons/md"
+import { useEffect,useState } from "react";
 import "./NavBar.css";
 const NavBar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+  
+
   return (
+
     <nav>
       <section className="navbar">
       <div className="logonav">
@@ -14,13 +23,11 @@ const NavBar = () => {
       </div>
 
       <div className="linksnav">
-        <div className="hamburger">
-          <GiHamburgerMenu />
+        <div className="hamburger" onClick={handleClick}>
+            {isMenuOpen ? <RxCross2 /> : <GiHamburgerMenu />}
+          
         </div>
-        <div className="cross">
-          <RxCross2 />
-        </div>
-        <ul className="links">
+        <ul className={`links ${isMenuOpen ? 'show' : ''}`}>
           <li className="link">
             <a href="#aboutme">About me</a>
           </li>

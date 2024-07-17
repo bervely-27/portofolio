@@ -17,9 +17,8 @@
     
 }
 
-/* .testimonie-wrapper {
-    width: 80%;
-    display: flex;
-    
-   
-} */
+@media (max-width:900px) {
+    .testimonies{
+        flex-direction: column;
+    }
+}

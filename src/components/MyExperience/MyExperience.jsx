@@ -16,14 +16,14 @@ const MyExperience = () => {
     },
     {
       link: youtube,
-      legend: "Software Engineer at Youtube",
+      legend: "Software Engineer At Youtube",
       date: "Jan 2017 - Oct 2019",
       description:
         "At Youtube, I served as a  Software Engineer, focusing on the design and implementation of backend systems for the social media giant's dynamic platform. Working on projects that involved large-scale data processing and user engagement features, I leveraged my expertise to ensure seamless functionality and scalability.",
     },
     {
       link: apple,
-      legend: "Junior Software Engineer at Apple",
+      legend: "Junior Software Engineer At Apple",
       date: "Jan 2016 - Dec 2017",
       description:
         "During my tenure at Apple, I held the role of Software Architect, where I played a key role in shaping the architecture of mission-critical software projects. Responsible for designing scalable and efficient systems, I provided technical leadership to a cross-functional team.",

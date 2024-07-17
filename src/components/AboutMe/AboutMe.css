@@ -23,3 +23,18 @@
         letter-spacing: 0.02em;
         text-align: left;
 }
+
+@media (max-width:900px) {
+    .about-wrapper{
+        flex-direction: column;
+    }
+
+    .girl{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .girl img{
+       width: 100%;
+    }
+}

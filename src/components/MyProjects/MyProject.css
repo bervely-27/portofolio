@@ -4,3 +4,13 @@
     color: white;
     padding-top: 50px;
 }
+
+@media (max-width:900px) {
+    .myprojects{
+        padding-bottom: 40px;
+    }
+
+    .num{
+        font-size: 30px;
+    }
+}

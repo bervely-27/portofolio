@@ -45,4 +45,37 @@ flex-direction: column;
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: left;
+        color: #71717A;
+}
+
+@media (max-width:900px) {
+    .project{
+        flex-direction: column;
+    }
+
+        .project-img:nth-child(even)  {
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+           
+        }
+ .project.project:nth-child(even){
+    flex-direction: column;
+ }
+
+
+.headnum{
+    font-size: 20px;
+}
+.project-img img{
+width: 100%;
+}
+.project-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+      
 }

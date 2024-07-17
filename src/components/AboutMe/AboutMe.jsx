@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <section className="about-me">
       <div className="about-wrapper">
-        <div>
+        <div className="girl">
           <img src={girl} alt="girl" />
         </div>
         <div>

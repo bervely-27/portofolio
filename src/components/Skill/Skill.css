@@ -29,3 +29,11 @@ letter-spacing: -0.02em;
     justify-content: center;
     height: 40px;
 }
+
+@media (max-width:900px) {
+    .skill{
+        width: 70%;
+       height: 80%;
+       margin-top: 0;
+    }
+}
