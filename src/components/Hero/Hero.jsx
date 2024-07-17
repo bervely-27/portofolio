@@ -21,7 +21,7 @@ const Hero = () => {
                     Frontend
                 </span>{" "}
                 <span className="developer">Developer</span> <br />
-                Based In <span className="bold">India.</span>
+                Based In <span className="bold">BENIN.</span>
            </h6>
             <p>
                 I'm DOSSOU Beverly Lorem Ipsum is simply dummy text of the printing and

@@ -10,6 +10,7 @@
  flex-direction: column;
  justify-content: center;      
  align-items: center; 
+color: #71717A;
        
 }
 
@@ -27,13 +28,11 @@
         line-height: 20px;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #404040;
+       
         margin: 0 20px;
 }
 
-.testimony p:hover{
-        color: white;
-}
+
 
 .person{
     margin-top: 30px;
@@ -43,7 +42,7 @@
         line-height: 24px;
         letter-spacing: -0.02em;
         text-align: center;
-       color:  #404040;
+       
 }
 
 .job{
@@ -54,10 +53,7 @@
         line-height: 20px;
         letter-spacing: -0.02em;
         text-align: center;
-        color: #71717A;
+        
         margin-top: 10px;
 }
 
-.job:hover{
-        color: white;
-}
