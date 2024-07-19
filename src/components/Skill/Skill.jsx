@@ -4,7 +4,7 @@ const Skill = ({source,text}) => {
   return (
     <div className='skill'>
       <div className='imgskill'><img src={source} alt=''/></div>
-      <p>{text}</p>
+      <div className='name-skil'><p>{text}</p></div>
     </div>
   )
 }
